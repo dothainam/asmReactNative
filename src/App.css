@@ -1,0 +1,294 @@
+.range-slider {
+    position: relative;
+    width: 100%;
+    height: 10px;
+    background: #e0e0e0;
+    border-radius: 5px;
+  }
+
+  .range-slider input {
+    position: absolute;
+    width: 100%;
+    pointer-events: none;
+    -webkit-appearance: none;
+    background: transparent;
+  }
+
+  .range-slider input::-webkit-slider-thumb {
+    pointer-events: all;
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    background: #4A90E2;
+    cursor: pointer;
+    -webkit-appearance: none;
+    position: relative;
+    z-index: 2;
+  }
+
+  .range-slider input::-moz-range-thumb {
+    pointer-events: all;
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    background: #4A90E2;
+    cursor: pointer;
+    position: relative;
+    z-index: 2;
+  }
+
+  .range-slider input::-ms-thumb {
+    pointer-events: all;
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    background: #4A90E2;
+    cursor: pointer;
+    position: relative;
+    z-index: 2;
+  }
+
+  .range-slider .slider-track {
+    position: absolute;
+    width: 100%;
+    height: 8px;
+    background: #e0e0e0;
+    border-radius: 5px;
+    top: 50%;
+    transform: translateY(-50%);
+  }
+
+  .range-slider .slider-range {
+    position: absolute;
+    height: 8px;
+    background: #4A90E2;
+    border-radius: 5px;
+    top: 50%;
+    transform: translateY(-50%);
+    z-index: 1;
+  }
+
+
+  .quantity-selector {
+    display: flex;
+    align-items: center;
+  }
+  .quantity-button {
+    width: 30px;
+    height: 30px;
+    background-color: #ddd;
+    border: 1px solid #ccc;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+    font-size: 18px;
+  }
+  .quantity-input {
+    width: 50px;
+    height: 30px;
+    text-align: center;
+    border: 1px solid #ccc;
+  }
+
+
+  .image-container:hover .overlay {
+    opacity: 1;
+}
+
+.image-container:hover img {
+    filter: brightness(0.5);
+}
+
+
+
+.logo {
+  height: 6em;
+  padding: 1.5em;
+  will-change: filter;
+  transition: filter 300ms;
+}
+.logo:hover {
+  filter: drop-shadow(0 0 2em #646cffaa);
+}
+.logo.react:hover {
+  filter: drop-shadow(0 0 2em #61dafbaa);
+}
+
+@keyframes logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  a:nth-of-type(2) .logo {
+    animation: logo-spin infinite 20s linear;
+  }
+}
+
+.card {
+  padding: 2em;
+}
+
+.read-the-docs {
+  color: #888;
+}
+
+.lds-roller,
+.lds-roller div,
+.lds-roller div:after {
+  box-sizing: border-box;
+}
+.lds-roller {
+  display: inline-block;
+  position: relative;
+  width: 80px;
+  height: 80px;
+}
+.lds-roller div {
+  animation: lds-roller 1.2s cubic-bezier(0.5, 0, 0.5, 1) infinite;
+  transform-origin: 40px 40px;
+}
+.lds-roller div:after {
+  content: " ";
+  display: block;
+  position: absolute;
+  width: 7.2px;
+  height: 7.2px;
+  border-radius: 50%;
+  background: currentColor;
+  margin: -3.6px 0 0 -3.6px;
+}
+.lds-roller div:nth-child(1) {
+  animation-delay: -0.036s;
+}
+.lds-roller div:nth-child(1):after {
+  top: 62.62742px;
+  left: 62.62742px;
+}
+.lds-roller div:nth-child(2) {
+  animation-delay: -0.072s;
+}
+.lds-roller div:nth-child(2):after {
+  top: 67.71281px;
+  left: 56px;
+}
+.lds-roller div:nth-child(3) {
+  animation-delay: -0.108s;
+}
+.lds-roller div:nth-child(3):after {
+  top: 70.90963px;
+  left: 48.28221px;
+}
+.lds-roller div:nth-child(4) {
+  animation-delay: -0.144s;
+}
+.lds-roller div:nth-child(4):after {
+  top: 72px;
+  left: 40px;
+}
+.lds-roller div:nth-child(5) {
+  animation-delay: -0.18s;
+}
+.lds-roller div:nth-child(5):after {
+  top: 70.90963px;
+  left: 31.71779px;
+}
+.lds-roller div:nth-child(6) {
+  animation-delay: -0.216s;
+}
+.lds-roller div:nth-child(6):after {
+  top: 67.71281px;
+  left: 24px;
+}
+.lds-roller div:nth-child(7) {
+  animation-delay: -0.252s;
+}
+.lds-roller div:nth-child(7):after {
+  top: 62.62742px;
+  left: 17.37258px;
+}
+.lds-roller div:nth-child(8) {
+  animation-delay: -0.288s;
+}
+.lds-roller div:nth-child(8):after {
+  top: 56px;
+  left: 12.28719px;
+}
+@keyframes lds-roller {
+  0% {
+    transform: rotate(0deg);
+  }
+  100% {
+    transform: rotate(360deg);
+  }
+}
+
+#popup{
+  background: rgba(0,0,0,0.5);
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+#popup form{
+  background: #fff; 
+  border: 1px solid #ccc;
+  width: 500px;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  padding: 30px;
+  border-radius: 10px;
+  animation: PopupAnimation 0.3s ease-in;
+}
+#popup form input{padding: 8px 10px; border: 1px solid #eee}
+@keyframes PopupAnimation {
+  0%{
+    margin-top: 100px;
+    opacity: 0;
+  }
+  100% {
+    margin-top: 0;
+    opacity: 1;
+  }
+}
+a.active{color: yellow; font-weight: 700;}
+.box-user{max-width: 500px; background-color: #fff; margin: auto; box-shadow: 0 0 5px #ccc;}
+.progress-bar{width: 100%;height: 2px; position: relative;}
+.progress-bar:after{
+  content: "";
+  width: 100%;
+  height: 2px;
+  background-color: green;
+  display: block;
+  float: right;
+  animation: progress 3.1s ease;
+}
+.progress-bar.error:after{
+  background-color: brown;
+}
+@keyframes progress{
+  0%{
+    width: 100%;
+  }
+  100%{
+    width: 0;
+  }
+}
+@keyframes totop {
+  0%{
+    top:100px
+  }
+  100%{
+    top:0
+  }
+}

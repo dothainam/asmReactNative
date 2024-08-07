@@ -1,0 +1,113 @@
+{
+  "products": [
+    {
+      "name": "Sản phẩm A",
+      "image": "https://picsum.photos/300/300",
+      "price": "1234",
+      "category": "1",
+      "id": 1
+    },
+    {
+      "name": "Sản phẩm B",
+      "image": "https://picsum.photos/300/300",
+      "price": "123",
+      "category": "2",
+      "id": 2
+    },
+    {
+      "name": "Sản phẩm C",
+      "image": "https://fastly.picsum.photos/id/1076/300/300.jpg?hmac=Nyv9lBi6xcTR9iOySfgGlf24hAYdDRaHQ7nJQim1naA",
+      "price": "123",
+      "category": "3",
+      "id": 3
+    },
+    {
+      "name": "Sản phẩm D",
+      "image": "https://fastly.picsum.photos/id/1076/300/300.jpg?hmac=Nyv9lBi6xcTR9iOySfgGlf24hAYdDRaHQ7nJQim1naA",
+      "price": "087",
+      "category": "4",
+      "id": 4
+    },
+    {
+      "name": "Sản phẩm E",
+      "image": "https://fastly.picsum.photos/id/1076/300/300.jpg?hmac=Nyv9lBi6xcTR9iOySfgGlf24hAYdDRaHQ7nJQim1naA",
+      "price": "23132",
+      "category": "2",
+      "id": 5
+    },
+    {
+      "name": "Sản phẩm G",
+      "image": "https://fastly.picsum.photos/id/1076/300/300.jpg?hmac=Nyv9lBi6xcTR9iOySfgGlf24hAYdDRaHQ7nJQim1naA",
+      "price": "1941",
+      "category": "1",
+      "id": 6
+    }
+  ],
+  "categories": [
+    {
+      "name": "Danh muc a",
+      "image": "https://picsum.photos/2",
+      "id": 1
+    },
+    {
+      "name": "Danh muc b",
+      "image": "https://picsum.photos/9",
+      "id": 2
+    },
+    {
+      "name": "Danh muc c",
+      "image": "https://picsum.photos/10",
+      "id": 3
+    },
+    {
+      "name": "Danh muc d",
+      "image": "https://picsum.photos/3",
+      "id": 4
+    }
+  ],
+  "users": [
+    {
+      "email": "22@gmail.com",
+      "password": "$2a$10$DUfVAJumrxH/5UpJ2oDiguVqkA9RgIv4wWorJzeW0mOfGP9vISzMG",
+      "name": "asd",
+      "id": 1
+    },
+    {
+      "email": "223@gmail.com",
+      "password": "$2a$10$KM/NKb0QR47g6WbBfRTKaOYkKuISBlX4.ID1/4zf/FLOiltmXNADa",
+      "name": "asd",
+      "id": 2
+    },
+    {
+      "email": "awd@gmail.com",
+      "password": "$2a$10$KIlPnLS8tlutZZnRZFaR7uEckr8dlfUKGz/vQKYLuY9D717nbsl3S",
+      "name": "123",
+      "id": 3
+    },
+    {
+      "email": "adwd@gmail.com",
+      "password": "$2a$10$STUzykmNbyEAbaaGeC6k4OKdaibh67fIIg/nwkDLoPKFxVFLtrbx.",
+      "name": "adwd@gmail.com",
+      "id": 4
+    },
+    {
+      "email": "adwd2@gmail.com",
+      "password": "$2a$10$/VaqiKw.66nIk8iFBOyLl.TD71ivmCMQ2Mbs/NaooXmhudqGt3Ylm",
+      "name": "adwd2@gmail.com",
+      "id": 5
+    },
+    {
+      "email": "110@gmail.com",
+      "password": "$2a$10$Ek6jaLFeGu2Y4/EFLpCtC.swznBzFo3McuhpPhIoFlKsjFfeMQ/fS",
+      "name": "adad",
+      "id": 6
+    },
+    {
+      "email": "asd@gmail.com",
+      "password": "$2a$10$GWbD74aqMnUSB/wpk998Pu/ZwIoFJXiLiGFKVE6/HdTnOAaZpUfCO",
+      "name": "add",
+      "id": 7
+    }
+  ],
+  "cart": []
+}
